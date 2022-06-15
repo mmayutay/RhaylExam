@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+</head>
+
+<body><br><br>
+    <h3>facebook</h3>
+    <div class="logInBody">
+        <input placeholder="Mobile number or email" type="text">
+        <input placeholder="Password" type="password">
+        <button>Log in</button>
+    </div>
+    <p>Forgot Password?</p>
+    <p>-------------------------------- or --------------------------------</p>
+    <div class="buttonMid">
+        <button class="createButton">Create new account</button>
+    </div><br><br>
+
+    <div class="row">
+        <div class="column">
+            <p>English(US)</p>
+            <p>Bisaya</p>
+            <p>Chinese</p>
+            <p>Portuguese</p>
+        </div>
+        <div class="column">
+            <p>Tagalog</p>
+            <p>Spanish</p>
+            <p>Korean</p>
+            <p>More...</p>
+        </div>
+    </div>
+    <p style="font-size: 8px;">About . Help . More</p>
+    <p style="font-size: 8px;">Meta @ 2022</p>
+</body>
+
+</html>
+
+
+
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h3 {
+        color: rgb(34, 34, 211);
+        text-align: center;
+    }
+
+    input {
+        margin: 10px;
+        width: 90%;
+        padding: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 1px 1px 1px 1px rgb(202, 202, 202);
+        background-color: rgba(216, 216, 216, 0.3);
+    }
+
+    button {
+        background-color: rgb(46, 46, 243);
+        border-radius: 5px;
+        border: none;
+        margin: 10px;
+        width: 96%;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .createButton {
+        background-color: rgb(3, 163, 3);
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .buttonMid {
+        text-align: center;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 43%;
+        padding: 10px;
+        font-size: 10px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        text-align: center;
+    }
+</style>
